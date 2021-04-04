@@ -5,7 +5,7 @@ Bash script that is used to convert a dataset of short video files to a image se
 
 You will need to change the path-structure on line 39 to the one corresponding to your dataset in order for the script to pull the correct short-videos.
 
-For Example if the dataset looks like:
+For Example if the original dataset looks like:
 ```
 srcDir:
 -0000:
