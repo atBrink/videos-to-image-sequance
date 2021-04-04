@@ -18,7 +18,7 @@ srcDir:
 ```
 It will combine all vid0.mp4 files and create a image set containing frames of the videos in order
 ```
-destDir
+destDir:
 -time.txt
 -image_0:
 --0000.png
