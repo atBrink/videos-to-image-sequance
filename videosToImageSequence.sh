@@ -15,9 +15,6 @@ fps=$3
 # What kind of file-extension you want the individual images to have. .png/.jpg etc
 destExt=$4
 
-# Custom options to pass on to ffmpeg package. See https://ffmpeg.org/documentation.html
-opts=$5
-
 # Create destination path folder structure if it does not already exist:
 if [ ! -d $destDir ]; then
   mkdir -p $destDir;
@@ -33,8 +30,8 @@ touch $destDir/videos.txt
 # Extract the correct video files to be combined, Will need to change this for other datasets:
 for sequenceNr in $srcDir/*; do
 	filename=${sequenceNr}
-	basePath=${sequenceNr%.*}
-	baseName=${basePath##*/}
+	#basePath=${sequenceNr%.*}
+	#baseName=${basePath##*/}
 	
 	echo "file $filename/RFC01.mp4" >> $destDir/videos.txt
 done
