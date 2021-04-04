@@ -7,20 +7,18 @@ You will need to change the path-structure on line 39 to the one corresponding t
 
 For Example if the dataset looks like:
 ```
-Dataset:
+srcDir:
 -0000:
---Cam0:
----vid0.mp4
+--vid0.mp4
 -0001:
---Cam0:
----vid0.mp4
+--vid0.mp4
 .
 .
 .
 ```
 It will combine all vid0.mp4 files and create a image set containing frames of the videos in order
 ```
-Dataset:
+destDir
 -time.txt
 -image_0:
 --0000.png
