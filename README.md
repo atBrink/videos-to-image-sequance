@@ -33,5 +33,5 @@ Dataset:
 
 Usage:
 ```
-./videosToImageSequence.sh srcPath destPath fps imageFileExtension OPTIONAL:ffmpeg-options
+$ ./videosToImageSequence.sh srcPath destPath fps imageFileExtension OPTIONAL:ffmpeg-options
 ```
